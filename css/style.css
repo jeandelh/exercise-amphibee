@@ -1,0 +1,858 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style-type:none;
+
+
+
+
+}
+
+
+#homePagePink
+{
+    position: relative;
+    background-color: #ffe1f3;
+    width:100% ;
+    height: 800px;
+
+
+
+}
+
+#homePageBlue
+{
+    width:100% ;
+    height: 700px;
+    background-color: #8ca5e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#homePageWhite
+{
+    width:100% ;
+    height: 750px;
+    background-color: #ffffff;
+}
+#homePaleBlue
+{
+    width:100% ;
+    height: 700px;
+    background-color: #b9dadc;
+
+}
+
+#homeTurquoiseBlue
+{
+    width:100% ;
+    height: 100%;
+    background-color: #0edab6;
+    position: relative;
+}
+body
+{
+    position: relative;
+}
+#navbar
+{
+    position: absolute;
+    right:7%;
+    top: 2%;
+
+
+
+     width: 55px;
+     height: 32px;
+}
+#positioningHomePagePink
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#logoAmphibee {
+
+    padding-top:80px;
+    /*padding-bottom: 150px;*/
+    display:block;
+    width: 200px;
+    height: 70px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#computer
+{
+    width: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#positioningWaveText
+{
+    display: grid;
+    height: 250px;
+}
+#waveOne
+{
+
+
+
+
+    width: 150px;
+
+    padding-left: 47px;
+    padding-top:20px;
+    grid-column: 1/1;
+    grid-row: 1/3;
+
+}
+#StyleHomeTextPink
+{
+    font-weight: bold;
+    font-size: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #38383a;
+    grid-column: 1/1;
+    grid-row: 2/3;
+    padding-top: 40px ;
+}
+
+
+
+
+#pointer
+{
+
+    width: 40px;
+    height:40px;
+
+    padding-top: 2px;
+    grid-column: 2/2;
+    grid-row: 3/3 ;
+
+}
+#waveTwo
+{
+    width: 150px;
+
+    padding-left: 47px;
+
+    grid-column: 1/2;
+    grid-row: 3/3 ;
+
+
+}
+#positioningPointer
+{
+    display: grid;
+
+
+}
+.StyleText
+{
+
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-weight: bold;
+    font-size: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #38383a;
+
+
+}
+#smartphoneBlue
+{
+    width: 328px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+#textSmartphoneBlue
+{
+    padding-top: 50px;
+}
+.positioningTextButton
+{
+
+
+    /*font-family: 'Montserrat', sans-serif;*/
+    /**/
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #38383a;
+    padding: 5px;
+
+}
+
+.arrow
+{
+
+    padding-top:8px;
+    padding-left: 2px;
+    width: 25px;
+    height: 25px;
+}
+#buttonYellow
+{
+    margin-top: 30px;
+
+    width: 220px;
+    height: 60px;
+    border-radius:6px;
+    background-color: #ffe450;
+
+}
+
+.textHomepageWhriteTitle
+{
+    font-weight: bold;
+    font-size: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #38383a;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#textImageThree
+{
+    font-weight: bold;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: left;
+
+    color: #38383a;
+}
+#VerticalPositioningTwo
+{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+}
+#textImageOne
+{
+    font-weight: bold;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+
+    text-align: left;
+
+
+    color: #38383a;
+}
+#positioningTextOne
+{
+    display: block;
+
+}
+#textImageTwo
+{
+    font-weight: bold;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    padding-top: 50px;
+    text-align: right;
+
+    padding-right: 30px;
+    color: #38383a;
+}
+
+.HorizontalPositioningWhiteElement
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+#one
+{
+
+    width:139px;
+    height: 132px;
+    padding: 25px;
+
+
+
+}
+
+
+
+#two
+{
+
+    width: 160px;
+    height: 153px;
+
+
+}
+
+#three
+{
+    width:169px;
+    height: 132px;
+    padding-right: 25px;
+}
+.line
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.VerticalPositioningWhiteElement
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.positioningElementButton
+{
+    display: flex;
+    flex-direction: row;
+
+}
+#buttonwhiteHomePaleBlue
+{
+    margin-top: 40px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 200px;
+    height: 60px;
+    border-radius:6px;
+    background-color: #ffe0f2;
+}
+
+#webSite
+{
+    width: 308px;
+    height: 215px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+#styleTextHomePaleBlue
+{
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-weight: bold;
+    font-size: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #38383a;
+}
+#buttonwhiteHomeTurquoise
+{
+    margin-top: 5px;
+    margin-left: 55px;
+    width: 200px;
+    height: 60px;
+    border-radius:6px;
+    background-color: #ffe0f2;
+}
+#positioningTextForm
+{
+    font-weight: bold;
+    font-size: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+   
+    color: #38383a;
+    padding-top: 30px;
+    padding-bottom:30px;
+
+
+}
+.littleInput
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding-top: 2px;
+
+
+}
+
+.textInput
+{
+    font-weight: bold;
+    font-size: 17px;
+    font-stretch: normal;
+    font-style: normal;
+    color: #38383a;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+#bigInput
+{
+
+    width: 300px;
+    height: 100px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding-top: 2px;
+}
+#positioningForm
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+#positioningTextButtonCenter
+{
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #38383a;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#dashedLine
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 29px;
+}
+.turquoiseImagePositioning
+{
+ padding-top: 30px;
+    padding-bottom: 30px;
+}
+#styleTextTurquoise
+{
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-weight: bold;
+    font-size: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #38383a;
+}
+
+.lineTurquoise
+{
+padding-top: 40px;
+padding-bottom: 40px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+#underliningMail
+{
+
+    border-bottom : 1px solid #38383a;
+    width: 180px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+#underliningNumber
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+    width: 136px;
+    border-bottom : 2px solid #38383a;
+
+}
+#positioningHeart
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#imageHeart
+{
+    width: 85px;
+    height: 94px;
+    position: absolute;
+    padding-top: 35px;
+}
+#styleTextWaveBlue
+{
+    position: absolute;
+    bottom: 40px;
+    font-weight: bold;
+    font-size: 26px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+
+}
+#positioningTextWaveBlue
+{
+    display: block;
+}
+#underline
+{
+    text-decoration: underline;
+}
+
+#waveBlue
+{
+    padding-top: 50px;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+@media (min-width: 1025px)  {
+     #navbar
+     {
+         display: none;
+     }
+
+     #buttonYellow
+     {
+         display: none;
+     }
+     #positioningHomePagePink
+     {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+
+     }
+    #computer
+    {
+        padding-right: 50px;
+
+    }
+    #waveOne
+    {
+        padding-left: 2px;
+    }
+    #waveTwo
+    {
+        padding-left: 2px;
+        padding-top: 15px;
+
+
+    }
+    #StyleHomeTextPink
+    {
+        padding-top: 60px ;
+        text-align: left;
+    }
+    .underlinePc
+    {
+
+        border-bottom : 1px solid #38383a;
+    }
+    .HorizontalPositioningWhiteElement
+    {
+        display: flex;
+       flex-direction: column;
+    }
+    .line
+    {
+        display: none;
+    }
+    #positioningImageWhitePc
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #one
+    {
+        padding: 0px;
+        padding-bottom: 25Px;
+    }
+    #two
+    {
+        padding-right: 50px;
+        padding-left: 50px;
+
+
+    }
+    #textImageTwo
+    {
+        padding:0px ;
+        text-align: center;
+    }
+
+    #VerticalPositioningTwo
+    {
+      flex-direction: column;
+    }
+
+    #linePcOne
+    {
+
+        width:40px;
+        margin-bottom: 20px;
+        border:1px solid #38383a;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #linePcTwo
+    {
+        width:40px;
+        margin-bottom: 20px;
+        border:1px solid #38383a;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #linePcThree
+    {
+        width:40px;
+        border:1px solid #38383a;
+
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    #positioningTextOne
+    {
+        display: inline-block;
+
+    }
+    #positioningTextOnePc
+    {
+        display: block;
+    }
+    #textImageOne
+    {
+        text-align: center;
+    }
+    #textImageThree
+    {
+        text-align: center;
+    }
+
+    .buttonwhite
+    {
+        display: none;
+    }
+
+    #positioningPcHomePaleBlue
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding-top: 100px ;
+
+    }
+    #buttonwhiteHomePaleBlue
+    {
+        display: none;
+    }
+
+    #webSite
+    {
+        margin:0px;
+
+    }
+    #styleTextHomePaleBlue
+    {
+
+        text-align: left;
+        padding-top: 55px;
+    }
+    #positioningTextTurquoise
+    {
+        display: block;
+    }
+    #positioningTextForm
+    {
+        text-align: center;
+
+
+    }
+    #positioningFormPcCenter
+    {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #positioningFormPc
+    {
+        display: grid;
+
+        width: 500px;
+    }
+
+    #positioningInputPcOne
+    {
+       grid-column: 1/2;
+        grid-row: 1/2;
+
+
+    }
+    #positioningInputPcTwo
+    {
+        grid-column: 2/2;
+        grid-row: 1/2;
+    }
+    #positioningInputPcThree
+    {
+
+        grid-column: 2/2;
+        grid-row: 2/2;
+    }
+    #positioningInputPcFour
+    {
+
+        grid-column: 1/2;
+        grid-row: 2/2;
+    }
+    .littleInput
+    {
+        margin-right: 20px;
+    }
+    #bigInput
+    {
+        width: 620px;
+    }
+    #buttonwhiteHomeTurquoise
+    {
+      width: 620px;
+       margin: 0px;
+
+    }
+
+    #minDashline
+    {
+        width: 100px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 50px;
+
+    }
+    #dashedLine
+    {
+        width:300px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+
+    }
+    .lineTurquoise
+    {
+        display: none;
+    }
+    #styleTextTurquoise
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    #message
+    {
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 9px;
+    }
+    #waveBlue
+    {
+        height: 500px;
+    }
+    #imageHeart
+    {
+        width: 105px;
+        height: 114px;
+        padding-top: 55px;
+    }
+    #positioningTextWaveBlue
+    {
+        display: inline-block;
+    }
+    #textPcWaveBlue
+    {
+
+
+        margin-top: 35px;
+
+        font-size: 22px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.26;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+    #positioningTextPcWaveBlue
+    {
+        margin-bottom:35px ;
+    }
+}
+@media (max-width: 640px) {
+ #minDashline
+ {
+     display: none;
+ }
+ #textPcWaveBlue
+ {
+     display: none;
+ }
+}
